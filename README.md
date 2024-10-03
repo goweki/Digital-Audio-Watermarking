@@ -96,3 +96,6 @@ SNR = 30.5dB
 
 This project is licensed under the [Do What The **** You Want To Public License (WTFPL)](https://choosealicense.com/licenses/wtfpl/).
 
+## References
+- [Twenty years of digital audio watermarking](https://www.sciencedirect.com/science/article/abs/pii/S0165168416300263)
+- [Detecting Hidden Information from a Spread Spectrum Watermarked Signal by Genetic Algorithm](https://ieeexplore.ieee.org/document/1688305)
