@@ -30,8 +30,8 @@ pip install numpy scipy pydub
 
 1. Clone the repository or download the Jupyter Notebook file.
 
-2. Ensure you have the required `.mp3` file at the root directory, which will be preproccessed to get a `.files/preproccessed.wav` file for watermarking. 
-   **Alternatively**: place a mono channel `.wav` audio file in the `./files` directory and name it `preprocessed.wav`, this won't require preprocessing. 
+2. Ensure you have the required `.mp3` file at the root directory, which will be preproccessed to get a `.files/preproccessed.wav` file for watermarking.
+   **Alternatively**: place a mono channel `.wav` audio file in the `./files` directory and name it `preprocessed.wav`, this won't require preprocessing.
 
 3. Open a terminal and navigate to the directory containing the notebook.
 
@@ -42,12 +42,13 @@ pip install numpy scipy pydub
    ```
 
 ## Usage
+
 To run the script, simply execute it in your terminal or command prompt:
 
 To run the watermarking process:
 
 1. Make sure that the audio file (`raw.mp3` or `preprocessed.wav`) is available in the specified directory.
-Update the `WATERMARK_TEXT` variable in the notebook with your desired watermark.
+   Update the `WATERMARK_TEXT` variable in the notebook with your desired watermark.
 2. Run the cells sequentially.
 
 ## Configuration
@@ -81,21 +82,24 @@ Detects the watermark from the watermarked audio signal. It uses correlation wit
 The main function that orchestrates the embedding and detection processes.
 
 ## Results
+
 After running the notebook, the original and recovered watermark texts will be printed, along with the Bit Error Rate (BER) and Signal-to-Noise Ratio (SNR) of the watermarked audio.
 
 Example Output:
+
 ```plaintext
 Copy code
-ORIGINAL WATERMARK:  This is your watermark  
-RECOVERED WATERMARK: This is your watermark  
-bit error rate = 0.0 %  
+ORIGINAL WATERMARK:  This is your watermark
+RECOVERED WATERMARK: This is your watermark
+bit error rate = 0.0 %
 SNR = 30.5dB
-```  
+```
 
 ## License
 
-This project is licensed under the [Do What The **** You Want To Public License (WTFPL)](https://choosealicense.com/licenses/wtfpl/).
+This project is licensed under the [Do What The \*\*\*\* You Want To Public License (WTFPL)](https://choosealicense.com/licenses/wtfpl/).
 
 ## References
+
 - [Twenty years of digital audio watermarking](https://www.sciencedirect.com/science/article/abs/pii/S0165168416300263)
 - [Detecting Hidden Information from a Spread Spectrum Watermarked Signal by Genetic Algorithm](https://ieeexplore.ieee.org/document/1688305)
